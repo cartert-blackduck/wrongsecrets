@@ -5,9 +5,9 @@ name: Docker container test
 on:
   push:
     branches:
-      - master
+      - xyz
   pull_request:
-    branches: [master]
+    branches: [xyz]
   workflow_dispatch:
 permissions:
   contents: read
