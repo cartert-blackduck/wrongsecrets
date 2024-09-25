@@ -4,9 +4,9 @@ on:
   repository_dispatch:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ xyz ]
   pull_request:
-    branches: [ master ]
+    branches: [ xyz ]
 permissions:
   contents: read
 jobs:
