@@ -2,7 +2,7 @@ name: DAST with ZAP
 
 on:
   pull_request:
-    branches: [master]
+    branches: [xyz]
   workflow_dispatch:
 
 permissions:
